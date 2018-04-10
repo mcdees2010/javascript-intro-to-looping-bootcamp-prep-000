@@ -23,7 +23,7 @@ function doWhileLoop(array) {
    return Math.random() >= 0.5
  }
    do {
-     console.log(--)
+     console.log(--countdown)
    }
    while(array.length > 0 && maybeTrue())
  return array;
