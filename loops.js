@@ -19,7 +19,7 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
- for(i = 0; i >= array.length; i--) {
+ for(i = 0; i > array.length; i--) {
    do {
      console.log(i)
    }
